@@ -1,0 +1,125 @@
+.widget_smart_calendar_widget{
+	width: 253px;
+}
+.widget_smart_calendar_widget .smart-calendar-content{
+padding: 5px 15px 5px;
+	background: url(../images/sm_agenda_y.png) repeat-y center top transparent;
+	color: #4d514d;
+	font-size: 15px;
+	line-height: 24px;
+}
+.widget_smart_calendar_widget .smart-calendar-content p{
+margin-bottom: 7px;
+}
+.widget_smart_calendar_widget .smart-calendar-content h3{
+color: #586640;
+font-weight: bold;
+font-size: 17px;
+text-align: center;
+}
+.widget_smart_calendar_widget #smart-calendar-header{
+	background: url(../images/sm_agenda_top.png) no-repeat center top transparent;
+	width: 100%;
+	height: 22px;
+}
+.widget_smart_calendar_widget #smart-calendar-footer{
+	background: url(../images/sm_agenda_bottom.png) no-repeat center top transparent;
+	width: 100%;
+	height: 23px;
+}
+.widget_smart_calendar_widget .smart-calendar-separator{
+	background: url(../images/sm_agenda_anillas.png) no-repeat center top transparent;
+	width: 100%;
+	height: 23px;
+}
+.widget_smart_calendar_widget .wp-calendar{
+width: 100%;
+background: url() transparent;
+	line-height: 16px;
+}
+.widget_smart_calendar_widget .smart-calendar-table{
+text-align: center;
+border-style: solid;
+border-color: #848983;
+border-width: 1px 0px 1px 1px;
+}
+.widget_smart_calendar_widget .wp-calendar td, .widget_smart_calendar_widget .wp-calendar thead{
+text-align: left;
+border-style: solid;
+border-color: #848983;
+border-width: 1px 1px 0px 0px;
+}
+.widget_smart_calendar_widget .wp-calendar td{
+text-indent: 3px;
+font-size: 11px;
+padding: 0px;
+}
+.widget_smart_calendar_widget .wp-calendar tbody td a:link,.widget_smart_calendar_widget .wp-calendar tbody  td a:visited{
+	color: #1e4a1c;
+    display: block;
+    height: 24px;
+    width: 100%;
+	background: url(../images/sm_agenda_daybtn.png) repeat-x top center transparent;
+	}
+.widget_smart_calendar_widget .wp-calendar tbody td a:hover, .widget_smart_calendar_widget .wp-calendar tbody td a:focus,.widget_smart_calendar_widget .wp-calendar tbody td a:visited {
+	color: #256222;
+	background-position: bottom;
+	text-decoration: none;
+}
+.widget_smart_calendar_widget .wp-calendar tfoot td{
+border: none;
+}
+.widget_smart_calendar_widget .wp-calendar th{
+    padding: 3px;
+    text-align: center;
+}
+.widget_smart_calendar_widget .wp-calendar thead, .widget_smart_calendar_widget .wp-calendar tfoot{
+padding: 3px;
+background-color: #929e7c;
+border: 1px solid #848983;
+}
+.widget_smart_calendar_widget .wp-calendar tr{
+height:24px;
+}
+.widget_smart_calendar_widget .smart-calendar-btn{
+background: url(../images/sm_agenda_btn.png) no-repeat center top transparent;
+padding: 5px 10px;
+text-align: center;
+width: 86px;
+height: 22px;
+display: block;
+color: #7e6828;
+
+	margin-bottom: 11px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.widget_smart_calendar_widget a.smart-calendar-btn:hover,.widget_smart_calendar_widget a.smart-calendar-btn:focus,.widget_smart_calendar_widget a.smart-calendar-btn:active{
+	margin-bottom: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	background-position: bottom;
+}
+.widget_smart_calendar_widget .table-caption{
+	font-size: 14px;
+	color: #6c7b51;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 9px 0 4px;
+}
+.widget_smart_calendar_widget .wp-calendar tfoot .sm_agenda_prev{
+    background: url("../images/sm_agenda_prev.png") no-repeat scroll center center transparent;
+    display: block;
+    height: 20px;
+    left: 5px;
+    margin-left: 3px;
+    margin-top: 5px;
+    width: 20px;
+}
+.widget_smart_calendar_widget .wp-calendar tfoot .sm_agenda_next{
+    background: url("../images/sm_agenda_next.png") no-repeat scroll center center transparent;
+    display: block;
+    height: 20px;
+    margin-left: 75px;
+    width: 20px;
+}
